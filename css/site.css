@@ -1,5 +1,5 @@
 ﻿.topo {
-    height: 100vh;
+    height: 85vh;
     background: url('../images/topo.jpg');
 }
 
@@ -23,6 +23,7 @@
 
 .dados-cadastrais {
     font-family: 'Barlow',Arial,Helvetica,sans-serif;
+    font-size: 12pt;
     padding: 25px 40px 20px 40px;
     height: auto;
 }
@@ -51,4 +52,45 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   padding-right: 15px;
+}
+
+.quem-sou {
+    font-family: 'Barlow',Arial,Helvetica,sans-serif;
+    font-size: 12pt;
+    color: #000000;
+    height: 50vh;
+    background-color: #F1F1F1;
+}
+
+.experiencias {
+    font-family: 'Barlow',Arial,Helvetica,sans-serif;
+    font-size: 12pt;
+    color: #000000;
+    height: 50vh;
+    background-color: #ffffff;
+}
+
+.circulo {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #182153;
+}
+
+.experiencias-col1 {
+    width: 49%;
+    vertical-align:top; 
+     padding-right: 50px;
+}
+
+.experiencias-separador {
+    width: 1%;
+    vertical-align:top; 
+    border-left: solid 2px rgb(241,241,241);
+}
+
+.experiencias-col3 {
+    width: 50%; 
+    vertical-align:top; 
+    padding-left: 50px;
 }
