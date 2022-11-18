@@ -1,0 +1,54 @@
+﻿.topo {
+    height: 100vh;
+    background: url('../images/topo.jpg');
+}
+
+.padding-top-35 {
+    padding-top: 15vh;
+}
+
+.navbar {
+    margin-bottom: inherit;
+}
+
+.foto {
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+.fundo-dados {
+    background-color: #ffffff;
+    padding-left: 0;
+}
+
+.dados-cadastrais {
+    font-family: 'Barlow',Arial,Helvetica,sans-serif;
+    padding: 25px 40px 20px 40px;
+    height: auto;
+}
+
+.fundo-azul {
+    color: #ffffff;
+    background-color: #182153;
+    height: 10vh;
+}
+
+.social-media-icone-container {    
+    height: 10vh;
+    /* position: relative; */
+}
+
+.social-media-icone-container a {
+    color: #ffffff;
+}
+
+.social-media-icone {
+    display: inline-block;
+    font-size: 16pt;
+    margin-top: 30px;
+  /* position: absolute; */
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-right: 15px;
+}
